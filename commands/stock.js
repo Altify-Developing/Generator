@@ -29,7 +29,7 @@ module.exports = {
 
             const embed = new MessageEmbed()
             .setColor(config.color.default)
-            .setTitle(`luckygen has the following  **${stock.length} items**`)
+            .setTitle(` has the following  **${stock.length} items**`)
             .setDescription('')
 
             // Push all services to the stock
